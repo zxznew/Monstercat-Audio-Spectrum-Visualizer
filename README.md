@@ -2,8 +2,8 @@
 Also: More songs will be added, just need to get them
 
 Viewing: 
-(Development) https://rawgit.com/TheNexusAvenger/Monstercat-Audio-Spectrum-Visualizer/master/index.html
-(Production) https://cdn.rawgit.com/TheNexusAvenger/Monstercat-Audio-Spectrum-Visualizer/master/index.html
+(Development) https://rawgit.com/zxznew/Monstercat-Audio-Spectrum-Visualizer/master/index.html
+(Production) https://cdn.rawgit.com/zxznew/Monstercat-Audio-Spectrum-Visualizer/master/index.html
 <br>Additional parameters:
 <br>(? or &)song=Song Name
 <br>(? or &)artist=Artist Name
