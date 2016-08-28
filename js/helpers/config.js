@@ -6,7 +6,7 @@ var RecordDownScale = 100 //How far down the recording should scale down numbers
 var IndluceRecordMetadata = true //If true, metadata such as the RecordFrequency and RecordDownScale are included in the file downloaded.
 var IndluceFileMetadata = true //If true, metadata such as the song and artist name are included in the file downloaded.
 var EncodeRawData = false //If true, data is encoded raw (untransformed in analysis.js)
-var EncodeEnabledByDefault = false //If true, encoding is enabled by default (no need to press e). More for personal use.
+var EncodeEnabledByDefault = true //If true, encoding is enabled by default (no need to press e). More for personal use.
 
 var FrameCap = 60 //Caps the math to the given frame rate. By default, it is able to run faster than your framerate.
 
