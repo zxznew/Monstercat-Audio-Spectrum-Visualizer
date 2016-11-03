@@ -1,8 +1,8 @@
 var UseSVGOverCanvas = false //Recommended to be false (performance and compatibility). Professor had me experiment with it.
 
 var EncodingEnabled = true //If true, encoding will be an option. Text will be hidden and data won't be recorded if false
-var RecordFrequency = 15 //How many times per second data should try to record at. 30 is recommended.
-var RecordDownScale = 100 //How far down the recording should scale down numbers (0-this instead of 0-255). You can increase this past 255 for more accuracy.
+var RecordFrequency = 30 //How many times per second data should try to record at. 30 is recommended.
+var RecordDownScale = 255 //How far down the recording should scale down numbers (0-this instead of 0-255). You can increase this past 255 for more accuracy.
 var IndluceRecordMetadata = true //If true, metadata such as the RecordFrequency and RecordDownScale are included in the file downloaded.
 var IndluceFileMetadata = true //If true, metadata such as the song and artist name are included in the file downloaded.
 var EncodeRawData = false //If true, data is encoded raw (untransformed in analysis.js)
@@ -20,7 +20,7 @@ var ParticlesEnabled = true //If true, particles in the background will be enabl
 var VelocityScaleFactor = 5
 
 //spectrum.js
-var SpectrumBarCount = 63
+var SpectrumBarCount = 60
 var Bar1080pWidth = 15
 var Bar1080pSeperation = 7
 var BarHeightToWidthRatio = 22
